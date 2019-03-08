@@ -3,7 +3,7 @@
     {
       "type": "googlecompute",
       "account_file": "{{user `gcloud_account_json`}}",
-      "project_id": "acme-dev",
+      "project_id": "vgs-ggrc-dev-01",
       "ssh_username": "ubuntu",
       "source_image": "ubuntu-1804-bionic-v20180723",
       "zone": "us-west2-a",
