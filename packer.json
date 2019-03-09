@@ -3,7 +3,7 @@
     {
       "type": "googlecompute",
       "account_file": "{{user `gcloud_account_json`}}",
-      "project_id": "vgs-ggrc-dev-01",
+      "project_id": "acme-dev-01",
       "ssh_username": "ubuntu",
       "source_image": "ubuntu-1604-xenial-v20190306",
       "zone": "us-west2-a",
