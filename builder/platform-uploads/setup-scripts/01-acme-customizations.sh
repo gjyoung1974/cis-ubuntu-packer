@@ -43,6 +43,3 @@ sudo rm -rf /usr/local/lib/python2.7/dist-packages/ansible*
 # sudo mkdir -p /opt/gcp
 # pushd /opt/gcp
 # popd
-
-# no strict modes since our keys are placed in /etc
-sudo sed -i 's/^StrictModes.*/StrictModes no/g' /etc/ssh/sshd_config
