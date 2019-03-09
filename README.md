@@ -2,7 +2,8 @@
 ### What's this? 
 ####  This project packs a "Center for Itnernet Security" benchmark hardened Ubuntu image for Google Compute Engine
 `CIS Hardened Ubuntu Image`
-1. Edit the file: packer.json
+1. Edit the file: packer.json 
+change the line `project_id` to reflect the proper GCloud project     
 1. Authenticate / get a JWT token for Gcloud
 ```sh
 gcloud auth application-default login
